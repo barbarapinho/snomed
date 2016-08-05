@@ -1,0 +1,28 @@
+Abstract
+Introduction
+Snomed CT
+SNOMED CT is a comprehensive clinical healthcare terminology
+CPARA
+CPNutrição
+Yandex
+Wikidata
+Software trad automatico
+
+In this work, three approaches were used to generate translations of SNOMED CT to Portuguese, both isolated and conjugated with each other. 
+
+One of the methods was to translate sets of SNOMED CT using YandexTranslate web interface associated to a search engine. This tool allowed for the automatic translation from English and Spanish to Portuguese.
+
+
+
+In order to validate these proposed translations, pre-existing catalogues of clinical terms translated to Portuguese by medical experts alligned against sets of SNOMED CT were used. These Portuguese catalogues refer to terms related with allergies and adverse reactions (CPARA) and nutrition (CPN). Both catalogues were available as English-Portuguese allignments and CPARA was also available as Spanish-Portuguese allignment. 
+The evaluation of each method was done by calculating the accuracy of translation. Before proceding to the calculation of the accuracy, all translations (existing and proposed)were normalised: all qualifiers from SNOMED CT terms were removed, every terms was converted to lowercase and all pronouns were eliminated. The accuracy was then calculated in two ways: the percentage of terms translated that had an exact string match to the existing translation and the percentage of terms that had a similar string match to the existing translation. The former method used the Levenshtein distance to calculate the similarity between strings. This measure returns values from 0 (no match) to 100 (exact match). When calculating the accuracy of translations using this method, strings with a similarity value of over 80 were considered to be correct translations. 
+
+The results of the evaluation of each method is presented in the table below:
+
+CPARA (english)
+CPARA (spanish)
+CPN
+
+
+
+
